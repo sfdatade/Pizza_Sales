@@ -489,6 +489,9 @@
       <column caption='Traffic Score' datatype='integer' name='[Calculation_645422144145199108]' role='measure' type='quantitative'>
         <calculation class='tableau' formula='IF [Traffic Level] = &quot;High&quot; THEN 3&#13;&#10;ELSEIF [Traffic Level] = &quot;Medium&quot; THEN 2&#13;&#10;ELSE 1&#13;&#10;END' />
       </column>
+      <column caption='Is Peak Hour_Numeric' datatype='integer' name='[Calculation_645422144449466375]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Is Peak Hour]  = &quot;VERDADERO&quot; THEN 1&#13;&#10;ELSE 0&#13;&#10;END' />
+      </column>
       <column aggregation='CountD' caption='City (copy)' datatype='string' default-role='measure' default-type='quantitative' name='[City (copy)_645422144166518789]' role='dimension' semantic-role='[City].[Name]' type='nominal' user:SplitFieldIndex='1' user:SplitFieldOrigin='[federated.1pinw1z1qeyszj14njz7g0xilzgb].[Location]'>
         <calculation class='tableau' formula='TRIM( SPLIT( [Location], &quot;,&quot;, 1 ) )' />
       </column>
@@ -530,6 +533,9 @@
         </calculation>
       </column>
       <column datatype='string' name='[Restaurant Name]' role='dimension' type='nominal' />
+      <column caption='Pizza_Size_Score' datatype='integer' name='[Traffic Score (copy)_645422144447913990]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Pizza Size] = &quot;Small&quot; THEN 1&#13;&#10;ELSEIF [Pizza Size] = &quot;Medium&quot; THEN 2&#13;&#10;ELSEIF [Pizza Size] = &quot;Large&quot; THEN 3&#13;&#10;ELSEIF [Pizza Size] = &quot;XL&quot; THEN 4&#13;&#10;ELSE NULL&#13;&#10;END' />
+      </column>
       <column caption='Enhanced_pizza_sales.csv' datatype='table' name='[__tableau_internal_object_id__].[Enhanced_pizza_sales.csv_66F69BFC05F4498592C3CE71D4561313]' role='measure' type='quantitative' />
       <column-instance column='[Calculation_1431581753017053184]' derivation='Avg' name='[avg:Calculation_1431581753017053184:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Calculation_645422144145199108]' derivation='Avg' name='[avg:Calculation_645422144145199108:qk]' pivot='key' type='quantitative' />
@@ -598,7 +604,7 @@
       <column-instance column='[Calculation_1372190533387522056]' derivation='User' name='[usr:Calculation_1372190533387522056:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Calculation_645422144135651331]' derivation='User' name='[usr:Calculation_645422144135651331:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Percentage of Delayed Orders (copy)_1372190533294997511]' derivation='User' name='[usr:Percentage of Delayed Orders (copy)_1372190533294997511:qk]' pivot='key' type='quantitative' />
-      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='false' object-id='' units='records'>
         <connection access_mode='readonly' author-locale='en_GB' class='hyper' dbname='C:/Users/sfmol/AppData/Local/Temp/TableauTemp/#TableauTemp_1sxryz20l74tg614g30xf1einfnq.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/19/2025 10:58:07 AM' username='tableau_internal_user'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <metadata-records>
