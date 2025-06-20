@@ -1,4 +1,4 @@
-﻿Order ID;Restaurant Name;Location;Order Time;Delivery Time;Delivery Duration (min);Pizza Size;Pizza Type;Toppings Count;Distance (km);Traffic Level;Payment Method;Is Peak Hour;Is Weekend;Delivery Efficiency (min/km);Topping Density;Order Month;Payment Category;Estimated Duration (min);Delay (min);Is Delayed;Pizza Complexity;Traffic Impact;Order Hour;Restaurant Avg Time;Price ($)
+Order ID;Restaurant Name;Location;Order Time;Delivery Time;Delivery Duration (min);Pizza Size;Pizza Type;Toppings Count;Distance (km);Traffic Level;Payment Method;Is Peak Hour;Is Weekend;Delivery Efficiency (min/km);Topping Density;Order Month;Payment Category;Estimated Duration (min);Delay (min);Is Delayed;Pizza Complexity;Traffic Impact;Order Hour;Restaurant Avg Time;Price ($)
 ORD011;Domino's;San Francisco, CA;11/01/2024 17:30;11/01/2024 17:50;20;Large;Veg;4;4;Low;UPI;FALSO;FALSO;5;1;January;Online;9,6;10,4;FALSO;12;1;17;30,25943396;13,7
 ORD586;Domino's;San Francisco, CA;22/05/2025 20:15;22/05/2025 21:00;45;Large;Veg;4;9;High;Cash;VERDADERO;FALSO;5;0,444444444;May;Offline;21,6;23,4;VERDADERO;12;3;20;30,25943396;13,7
 ORD616;Domino's;San Francisco, CA;21/06/2025 20:15;21/06/2025 21:00;45;Large;Veg;4;9;High;Cash;VERDADERO;VERDADERO;5;0,444444444;June;Offline;21,6;23,4;VERDADERO;12;3;20;30,25943396;13,7
@@ -524,8 +524,8 @@ ORD269;Pizza Hut;Seattle, WA;12/09/2024 20:30;12/09/2024 21:10;40;XL;Cheese Burs
 ORD528;Pizza Hut;Baton Rouge, LA;25/03/2025 19:15;25/03/2025 19:45;30;Large;Non-Veg;4;6;Medium;Wallet;VERDADERO;FALSO;5;0,666666667;March;Online;14,4;15,6;FALSO;12;2;19;29,94845361;14,7
 ORD693;Papa John's;Fresno, CA;06/09/2025 18:00;06/09/2025 18:30;30;Medium;Gluten-Free;3;5;Medium;UPI;VERDADERO;VERDADERO;6;0,6;September;Online;12;18;FALSO;6;2;18;28,18627451;11,1
 ORD497;Marco's Pizza;Tulsa, OK;22/02/2025 18:00;22/02/2025 18:30;30;Medium;Non-Veg;3;4;Medium;UPI;VERDADERO;VERDADERO;7,5;0,75;February;Online;9,6;20,4;FALSO;6;2;18;30,28645833;11,6
-ORD635;Marco’s Pizza;Tampa, FL;17/06/2025 19:15;17/06/2025 19:40;25;Small;Thai Chicken;3;3,2;Medium;Card;VERDADERO;FALSO;7,8125;0,9375;June;Online;7,68;17,32;FALSO;3;2;19;26,66666667;9,3
-ORD644;Marco’s Pizza;Tampa, FL;20/06/2025 18:10;20/06/2025 18:40;30;Small;Thai Chicken;3;3,2;Medium;Cash;VERDADERO;FALSO;9,375;0,9375;June;Offline;7,68;22,32;FALSO;3;2;18;26,66666667;9,3
+ORD635;Marco's Pizza;Tampa, FL;17/06/2025 19:15;17/06/2025 19:40;25;Small;Thai Chicken;3;3,2;Medium;Card;VERDADERO;FALSO;7,8125;0,9375;June;Online;7,68;17,32;FALSO;3;2;19;26,66666667;9,3
+ORD644;Marco's Pizza;Tampa, FL;20/06/2025 18:10;20/06/2025 18:40;30;Small;Thai Chicken;3;3,2;Medium;Cash;VERDADERO;FALSO;9,375;0,9375;June;Offline;7,68;22,32;FALSO;3;2;18;26,66666667;9,3
 ORD675;Marco's Pizza;Jacksonville, FL;19/08/2025 18:45;19/08/2025 19:15;30;Medium;Thai Chicken;3;4;Medium;Card;VERDADERO;FALSO;7,5;0,75;August;Online;9,6;20,4;FALSO;6;2;18;30,28645833;11,6
 ORD156;Domino's;Miami, FL;06/08/2024 18:20;06/08/2024 18:50;30;Large;Veg;3;6,5;Medium;Domino's Cash;VERDADERO;FALSO;4,615384615;0,461538462;August;Offline;15,6;14,4;FALSO;9;2;18;30,25943396;12,9
 ORD166;Domino's;Miami, FL;16/08/2024 18:25;16/08/2024 18:55;30;Large;Veg;3;6;Medium;Domino's Cash;VERDADERO;FALSO;5;0,5;August;Offline;14,4;15,6;FALSO;9;2;18;30,25943396;12,9
@@ -588,7 +588,7 @@ ORD397;Little Caesars;Dallas, TX;24/11/2024 18:00;24/11/2024 18:30;30;Medium;Non
 ORD423;Little Caesars;Dallas, TX;20/12/2024 18:00;20/12/2024 18:30;30;Medium;Non-Veg;3;4;Medium;Card;VERDADERO;FALSO;7,5;0,75;December;Online;9,6;20,4;FALSO;6;2;18;28,84422111;11,6
 ORD433;Little Caesars;Dallas, TX;20/12/2024 18:00;20/12/2024 18:30;30;Medium;Non-Veg;3;4;Medium;Card;VERDADERO;FALSO;7,5;0,75;December;Online;9,6;20,4;FALSO;6;2;18;28,84422111;11,6
 ORD514;Papa John's;St. Paul, MN;11/03/2025 20:00;11/03/2025 20:35;35;Medium;Gluten-Free;3;5,5;Medium;Wallet;VERDADERO;FALSO;6,363636364;0,545454545;March;Online;13,2;21,8;VERDADERO;6;2;20;28,18627451;11,1
-ORD639;Marco’s Pizza;Charlotte, NC;18/06/2025 20:00;18/06/2025 20:25;25;Medium;Non-Veg;3;4;Low;Wallet;VERDADERO;FALSO;6,25;0,75;June;Online;9,6;15,4;FALSO;6;1;20;26,66666667;11,6
+ORD639;Marco's Pizza;Charlotte, NC;18/06/2025 20:00;18/06/2025 20:25;25;Medium;Non-Veg;3;4;Low;Wallet;VERDADERO;FALSO;6,25;0,75;June;Online;9,6;15,4;FALSO;6;1;20;26,66666667;11,6
 ORD683;Papa John's;Memphis, TN;27/08/2025 20:30;27/08/2025 21:00;30;Medium;Gluten-Free;3;5;Medium;UPI;VERDADERO;FALSO;6;0,6;August;Online;12;18;FALSO;6;2;20;28,18627451;11,1
 ORD396;Pizza Hut;Boston, MA;23/11/2024 19:45;23/11/2024 20:25;40;XL;Stuffed Crust;5;7,5;High;Hut Points;VERDADERO;VERDADERO;5,333333333;0,666666667;November;Offline;18;22;VERDADERO;20;3;19;29,94845361;18,5
 ORD422;Pizza Hut;Boston, MA;19/12/2024 19:45;19/12/2024 20:25;40;XL;Stuffed Crust;5;7,5;High;Card;VERDADERO;FALSO;5,333333333;0,666666667;December;Online;18;22;VERDADERO;20;3;19;29,94845361;18,5
